@@ -4,10 +4,9 @@ module k8s.io/component-helpers
 
 go 1.15
 
-require k8s.io/api v0.0.0
+require k8s.io/api v0.0.0-20201020200614-54bcc311e327
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/component-helpers => ../component-helpers
+	k8s.io/api => k8s.io/api v0.0.0-20201020200614-54bcc311e327
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20201020200440-554eef9dbf66
 )
