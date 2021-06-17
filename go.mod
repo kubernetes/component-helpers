@@ -5,15 +5,15 @@ module k8s.io/component-helpers
 go 1.15
 
 require (
-	k8s.io/api v0.0.0-20210408104456-f223af846001
-	k8s.io/apimachinery v0.0.0-20210604165439-4009b035d6b5
-	k8s.io/client-go v0.0.0-20210604200829-74196508124d
+	k8s.io/api v0.20.9-rc.0
+	k8s.io/apimachinery v0.20.9-rc.0
+	k8s.io/client-go v0.20.9-rc.0
 	k8s.io/klog/v2 v2.4.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210408104456-f223af846001
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210604165439-4009b035d6b5
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210604200829-74196508124d
+	k8s.io/api => k8s.io/api v0.20.9-rc.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.20.9-rc.0
+	k8s.io/client-go => k8s.io/client-go v0.20.9-rc.0
 )
