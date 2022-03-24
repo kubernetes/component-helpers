@@ -6,15 +6,15 @@ go 1.16
 
 require (
 	github.com/google/go-cmp v0.5.5
-	k8s.io/api v0.0.0-20220323170435-c3242c86bc9e
-	k8s.io/apimachinery v0.0.0-20220317021027-c68a4df61d4d
-	k8s.io/client-go v0.0.0-20220323170724-a1a133ba909f
-	k8s.io/klog/v2 v2.40.1
+	k8s.io/api v0.0.0-20220324090948-252596ff4b82
+	k8s.io/apimachinery v0.0.0-20220324090745-7300632adf34
+	k8s.io/client-go v0.0.0-20220324091244-cf06297a8914
+	k8s.io/klog/v2 v2.60.1
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220323170435-c3242c86bc9e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220317021027-c68a4df61d4d
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220323170724-a1a133ba909f
+	k8s.io/api => k8s.io/api v0.0.0-20220324090948-252596ff4b82
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220324090745-7300632adf34
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220324091244-cf06297a8914
 )
