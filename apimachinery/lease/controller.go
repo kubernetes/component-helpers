@@ -45,6 +45,7 @@ const (
 // Controller manages creating and renewing the lease for this component (kube-apiserver, kubelet, etc.)
 type Controller interface {
 	Run(stopCh <-chan struct{})
+	GetLatestLease() *coordinationv1.Lease
 }
 
 // ProcessLeaseFunc processes the given lease in-place
@@ -227,6 +228,10 @@ func (c *controller) newLease(base *coordinationv1.Lease) (*coordinationv1.Lease
 	}
 
 	return lease, nil
+}
+
+func (c *controller) GetLatestLease() *coordinationv1.Lease {
+	return c.latestLease
 }
 
 func minDuration(a, b time.Duration) time.Duration {
