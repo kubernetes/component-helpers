@@ -2,13 +2,13 @@
 
 module k8s.io/component-helpers
 
-go 1.18
+go 1.19
 
 require (
 	github.com/google/go-cmp v0.5.6
-	k8s.io/api v0.0.0-20220804081333-c8f06018bfc8
-	k8s.io/apimachinery v0.0.0-20220804081135-41606c6745e1
-	k8s.io/client-go v0.0.0-20220804081630-55b6f70f8313
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 )
@@ -53,7 +53,8 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220804081333-c8f06018bfc8
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220804081135-41606c6745e1
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220804081630-55b6f70f8313
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-helpers => ../component-helpers
 )
