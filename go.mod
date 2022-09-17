@@ -5,10 +5,10 @@ module k8s.io/component-helpers
 go 1.19
 
 require (
-	github.com/google/go-cmp v0.5.8
-	k8s.io/api v0.0.0-20220916032116-c98ebf18d366
-	k8s.io/apimachinery v0.0.0-20220919104142-612703ed13bf
-	k8s.io/client-go v0.0.0-20220919105647-acfaa39399db
+	github.com/google/go-cmp v0.5.9
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 )
@@ -17,7 +17,7 @@ require (
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/emicklei/go-restful/v3 v3.8.0 // indirect
+	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
@@ -52,7 +52,8 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220916032116-c98ebf18d366
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220919104142-612703ed13bf
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220919105647-acfaa39399db
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-helpers => ../component-helpers
 )
