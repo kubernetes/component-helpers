@@ -6,9 +6,9 @@ go 1.19
 
 require (
 	github.com/google/go-cmp v0.5.9
-	k8s.io/api v0.0.0-20230210143906-1c6bd7031bcf
-	k8s.io/apimachinery v0.0.0-20230210142156-eabbfd57b6c3
-	k8s.io/client-go v0.0.0-20230210153645-2e3434888bb3
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 )
@@ -32,11 +32,11 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	golang.org/x/net v0.4.0 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
-	golang.org/x/sys v0.3.0 // indirect
-	golang.org/x/term v0.3.0 // indirect
-	golang.org/x/text v0.5.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/term v0.5.0 // indirect
+	golang.org/x/text v0.7.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
@@ -50,7 +50,8 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230210143906-1c6bd7031bcf
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230210142156-eabbfd57b6c3
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230210153645-2e3434888bb3
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-helpers => ../component-helpers
 )
