@@ -2,14 +2,14 @@
 
 module k8s.io/component-helpers
 
-go 1.21.3
+go 1.21
 
 require (
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.8.4
-	k8s.io/api v0.0.0-20231101171312-cd0ecb048ea5
-	k8s.io/apimachinery v0.0.0-20231101171057-16d50e6708ce
-	k8s.io/client-go v0.0.0-20231101171620-66e57f767515
+	k8s.io/api v0.0.0-20231128184855-0099855f0340
+	k8s.io/apimachinery v0.0.0-20231128183834-3c8c1f22dc33
+	k8s.io/client-go v0.0.0-20231128190455-288368e416e4
 	k8s.io/klog/v2 v2.110.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -53,7 +53,7 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231101171312-cd0ecb048ea5
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231101171057-16d50e6708ce
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231101171620-66e57f767515
+	k8s.io/api => k8s.io/api v0.0.0-20231128184855-0099855f0340
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231128183834-3c8c1f22dc33
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20231128190455-288368e416e4
 )
