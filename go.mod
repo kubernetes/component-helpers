@@ -7,9 +7,9 @@ go 1.22.0
 require (
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.9.0
-	k8s.io/api v0.0.0-20240713182828-fc8a03c10db3
-	k8s.io/apimachinery v0.0.0-20240713182533-d7e1c5311169
-	k8s.io/client-go v0.0.0-20240713183232-34751e103ae1
+	k8s.io/api v0.31.0-beta.0
+	k8s.io/apimachinery v0.31.0-beta.0
+	k8s.io/client-go v0.31.0-beta.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
 )
