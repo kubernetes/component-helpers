@@ -9,9 +9,9 @@ godebug default=go1.23
 require (
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.9.0
-	k8s.io/api v0.0.0-20241029173110-b911f6653b48
-	k8s.io/apimachinery v0.0.0-20241025000453-124c262107b0
-	k8s.io/client-go v0.0.0-20241025015621-3dc7fd5f4c1d
+	k8s.io/api v0.32.0-alpha.3
+	k8s.io/apimachinery v0.32.0-alpha.3
+	k8s.io/client-go v0.32.0-alpha.3
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
 )
