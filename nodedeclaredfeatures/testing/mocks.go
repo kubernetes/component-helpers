@@ -52,7 +52,7 @@ func NewMockFeatureGate(t *testing.T) *MockFeatureGate {
 var _ = types.Feature((*MockFeature)(nil))
 
 type MockFeature struct {
-	t                  *testing.T
+	t                  testing.TB
 	name               *string
 	discover           func(cfg *types.NodeConfiguration) bool
 	inferForScheduling func(podInfo *types.PodInfo) bool
@@ -122,7 +122,7 @@ func (m *MockFeature) SetRequirements(req *nodedeclaredfeatures.FeatureRequireme
 	m.requirements = &req
 }
 
-func NewMockFeature(t *testing.T) *MockFeature {
+func NewMockFeature(t testing.TB) *MockFeature {
 	return &MockFeature{
 		t: t,
 	}
