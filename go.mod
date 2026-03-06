@@ -2,14 +2,14 @@
 
 module k8s.io/component-helpers
 
-go 1.25.0
+go 1.26.0
 
-godebug default=go1.25
+godebug default=go1.26
 
 require (
-	k8s.io/api v0.0.0-20260305202001-09f708083100
-	k8s.io/apimachinery v0.0.0-20260305201635-b70df598017a
-	k8s.io/client-go v0.0.0-20260305202449-78536fe27cab
+	k8s.io/api v0.0.0-20260306081949-82b9cd13f9e4
+	k8s.io/apimachinery v0.0.0-20260306081630-647784e3f84c
+	k8s.io/client-go v0.0.0-20260306082425-c3a1049f7e8c
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 )
