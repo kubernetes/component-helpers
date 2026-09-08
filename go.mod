@@ -7,9 +7,9 @@ go 1.27.0
 godebug default=go1.27
 
 require (
-	k8s.io/api v0.0.0-20260904215302-696b79c644cf
-	k8s.io/apimachinery v0.0.0-20260904214832-b16c9f2303a7
-	k8s.io/client-go v0.0.0-20260907142626-3386f69e9d6b
+	k8s.io/api v0.0.0-20260908175325-6db3353067ed
+	k8s.io/apimachinery v0.0.0-20260908174850-5e9368769673
+	k8s.io/client-go v0.0.0-20260908175932-bd33a045e7a2
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
@@ -44,7 +44,7 @@ require (
 	golang.org/x/oauth2 v0.36.0 // indirect
 	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/term v0.45.0 // indirect
-	golang.org/x/text v0.40.0 // indirect
+	golang.org/x/text v0.41.0 // indirect
 	golang.org/x/time v0.15.0 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
