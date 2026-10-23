@@ -7,9 +7,9 @@ go 1.27.0
 godebug default=go1.27
 
 require (
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
+	k8s.io/api v0.0.0-20261023232138-4aafda5c5cf5
+	k8s.io/apimachinery v0.0.0-20261023231642-daa7d83b88ed
+	k8s.io/client-go v0.0.0-20261023232832-4e255c3a1194
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
@@ -45,12 +45,4 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v7 v7.0.1 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
-)
-
-replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/client-go => ../client-go
-	k8s.io/ktesting => ../ktesting
-	k8s.io/streaming => ../streaming
 )
