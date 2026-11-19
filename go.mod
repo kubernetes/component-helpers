@@ -9,9 +9,9 @@ godebug default=go1.27
 require (
 	github.com/coreos/go-oidc/v3 v3.21.0
 	github.com/go-jose/go-jose/v4 v4.1.9
-	k8s.io/api v0.0.0-20261119174813-9749eb65c839
+	k8s.io/api v0.0.0-20261119210214-a2c84304d35f
 	k8s.io/apimachinery v0.0.0-20261113044458-398326f9ce6a
-	k8s.io/client-go v0.0.0-20261119082213-196a038ef085
+	k8s.io/client-go v0.0.0-20261120002205-e26923da3eca
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
